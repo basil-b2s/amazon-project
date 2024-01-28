@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { ProductListingComponent } from './product-listing/product-listing.component';
 
 
 
@@ -13,7 +14,8 @@ import { BrowserModule } from '@angular/platform-browser';
   ],
   imports: [
     CommonModule,
-    BrowserModule
+    BrowserModule,
+    ProductListingComponent
   ],
   bootstrap:[
     AppComponent
