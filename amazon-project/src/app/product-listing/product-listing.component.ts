@@ -129,9 +129,9 @@ export class ProductListingComponent implements OnInit{
   public showProduct(index : number) : void{
       this.selectedProdIndex = index
   }
-   public showDetails(product : string) : any{
-    console.log("count")
-    console.log(product);
-    return
-   }
+  //  public showDetails(product : string) : any{
+  //   console.log("count")
+  //   console.log(product);
+  //   return
+  //  }
 }
